@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_search"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_view_left"
+            style="@style/navbar_image_item"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_bar_item_back" />
+
+        <com.xiyou.mygradutiondesign.widget.ClearableEditText
+            android:id="@+id/et_view_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icon_search"
+            android:drawablePadding="10dp"
+            android:iconifiedByDefault="false"
+            android:inputType="textFilter"
+            android:paddingLeft="5dp"
+            android:hint="请输入关键字"
+            android:textColorHint="@color/text_grey"
+            android:textColor="@color/text_light_black"
+            android:textSize="@dimen/text_size_16sp" />
+
+        <TextView
+            android:id="@+id/tv_view_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/ok"
+            android:textColor="@drawable/selector_search_click_ok"/>
+
+</LinearLayout>

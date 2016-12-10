@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="page_background_7fb4ad">#7fb4ad</color>
+    <color name="mainpage_btn_b2bddd">#b2bddd</color>
+    <color name="text_sub_title">#666666</color>
+    <color name="bg_color">#aaaaaa</color>
+
+    <color name="light_gray">#eeeeee</color>
+
+    <color name="text_black">#111111</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_light_black">#333333</color>
+    <color name="text_grey">#999999</color>
+    <color name="text_dark_grey">#666666</color>
+    <color name="text_hint">#cccccc</color>
+    <color name="text_dark_blue">#717b85</color>
+    <color name="text_dark_blue_alpha_30">#2d717b85</color>
+
+    <color name="background_dark">#ff000000</color>
+    <color name="bg_window">#ffffff</color>
+    <color name="bg_common_dialog_button_pressed">#bebebe</color>
+    <color name="common_orange">#ffff7400</color>
+
+    <color name="list_item_clicked">#f1f1f1</color>
+</resources>

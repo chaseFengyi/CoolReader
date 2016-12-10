@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/navbar"
+    android:id="@+id/navbar"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/navbar_left"
+        style="@style/navbar_image_item"
+        android:src="@drawable/selector_bar_item_back"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/navbar_title"
+        style="@style/navbar_title"
+        android:text="@string/app_name"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/navbar_image_right"
+        style="@style/navbar_image_item"/>
+</LinearLayout>

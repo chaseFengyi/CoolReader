@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/activity_page"
+    android:orientation="vertical">
+
+    <include layout="@layout/nav_bar"></include>
+
+    <include layout="@layout/divider_normal"></include>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/view_loading_dialog" ></include>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+            <LinearLayout
+                android:id="@+id/linear_traffic_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/view_base_traffic_info_header"></include>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/text_normal_tip"
+                    android:text="图片名称"
+                    />
+                <com.xiyou.mygradutiondesign.widget.ClearableEditText
+                    android:id="@+id/tv_traffic_details_pic_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="图像识别"
+                    style="@style/text_normal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/text_normal_tip"
+                    android:text="所属类别"
+                    />
+                <TextView
+                    android:id="@+id/tv_traffic_details_pic_belong_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="图像识别"
+                    style="@style/text_normal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/text_normal_tip"
+                    android:text="存储位置"
+                    />
+                <TextView
+                    android:id="@+id/tv_traffic_details_pic_store_position"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="/storage/emulated/0/TrafficSign/pictures/1458025482164.jpg"
+                    style="@style/text_normal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/text_normal_tip"
+                    android:text="功能介绍"
+                    />
+                <TextView
+                    android:id="@+id/tv_traffic_details_pic_introduce"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="图像识别图像\n识别图像识别\n图像识别图像识别"
+                    style="@style/text_normal"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+
+
+
+
+
+</LinearLayout>

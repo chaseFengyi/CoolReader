@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="activity_page">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/light_gray</item>
+    </style>
+
+    <style name="table_group_linearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:divider">@drawable/shape_line_left_margin</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingTop">1px</item>
+        <item name="android:paddingBottom">1px</item>
+    </style>
+
+    <style name="text_normal_tip">
+        <item name="android:textSize">@dimen/text_size_18sp</item>
+        <item name="android:textColor">@color/text_dark_grey</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">3dp</item>
+    </style>
+
+    <style name="text_normal">
+        <item name="android:textSize">@dimen/text_size_19sp</item>
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+</resources>

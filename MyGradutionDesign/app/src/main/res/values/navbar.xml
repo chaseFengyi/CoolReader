@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navbar_height">45dip</dimen>
+    <dimen name="navbar_title_text_size">17sp</dimen>
+    <dimen name="navbar_item_text_size">14sp</dimen>
+    <color name="navbar_bg_color">#f6f6f7</color>
+
+    <style name="navbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/navbar_height</item>
+        <item name="android:background">@color/navbar_bg_color</item>
+    </style>
+
+    <style name="navbar_image_item" parent="navbar_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="navbar_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/navbar_title_text_size</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="navbar_item" parent="navbar_title">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:textColor">@drawable/selector_gray_clicked</item>
+        <item name="android:textSize">@dimen/navbar_item_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+    </style>
+
+</resources>

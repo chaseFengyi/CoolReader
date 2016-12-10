@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">图像识别</string>
+    <string name="camera">拍照</string>
+    <string name="gallery">从图库获取</string>
+    <string name="store_house">我的仓库</string>
+    <string name="sort_by_function">按作用进行分类:</string>
+    <string name="all_of_the_traffic">所有交通标志列表:</string>
+    <string name="traffic_details">详细信息</string>
+    <string name="sign_indirect">指示标志</string>
+    <string name="sign_forbid">禁令标志</string>
+    <string name="sign_waring">警告标志</string>
+    <string name="sign_direct_way">指路标志</string>
+    <string name="sign_travel_area">旅游区标志</string>
+    <string name="sign_road_works">道路施工标志</string>
+    <string name="sign_assistant">辅助标志</string>
+    <string name="sign_others">其它标志</string>
+    <string name="edit_pic_info">编辑图片信息？</string>
+    <string name="default_pic_name">默认图片名</string>
+    <string name="rename_pic_name">新建图片名</string>
+    <string name="choose_type_of_pic">请选择该图片所属分类：</string>
+    <string-array name="type_of_traffic_sign">
+        <item>指示标志</item>
+        <item>禁令标志</item>
+        <item>警告标志</item>
+        <item>辅助标志</item>
+        <item>旅游区标志</item>
+        <item>道路施工标志</item>
+        <item>指路标志</item>
+    </string-array>
+
+    <string name="loading">加载中...</string>
+    <string name="disk_not_avaliable">磁盘不可用</string>
+    <string name="navbar_text_update">修改</string>
+    <string name="navbar_text_ok">确定</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="choice_belong_types">请选择所属类别:</string>
+
+    <string name="no_describe">暂无对该图片的详细介绍</string>
+    <string name="no_data">暂无数据</string>
+    <string name="input_content_empty">输入内容为空</string>
+    <string name="will_delete_info">您要删除 %s 图片信息吗？</string>
+    <string name="failed_delete_info">删除 %s 图片信息失败</string>
+    <string name="success_delete_info">删除 %s 图片信息成功</string>
+    <string name="search_failed">没有该以 %s 命名的图片信息</string>
+    <string name="update_save_position_of_sign">当前的交通标志对应的所属类别与您现在默认存储的所属类别位置不同，是否需要修改到正确位置？</string>
+
+</resources>
