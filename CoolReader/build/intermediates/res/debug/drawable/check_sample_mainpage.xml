@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/bt_dynamic_del_unfocused" android:state_checked="false"></item>
+    <item android:drawable="@drawable/bt_dynamic_del_focused" android:state_checked="true"></item>
+
+</selector>
+<!-- From: file:/F:/eclipse/Android/workspace/CoolReader/res/drawable/check_sample_mainpage.xml -->

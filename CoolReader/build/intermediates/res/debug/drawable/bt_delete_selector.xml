@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/bt_dynamic_del_focused" android:state_focused="true"></item>
+    <item android:drawable="@drawable/bt_dynamic_del_unfocused" android:state_focused="false"></item>
+
+</selector>
+<!-- From: file:/F:/eclipse/Android/workspace/CoolReader/res/drawable/bt_delete_selector.xml -->
